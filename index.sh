@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-source_from_remote() {
+# source_from_remote() {
 #   file="$1"
 #   url='https://github.com/luk-rs/shish/blob/main/index.sh'
 
@@ -35,4 +35,4 @@ is_installed() {
 }
 
 # source_from_remote 'luis'
- echo 'hello from the cloud'
+echo 'hello from the cloud'
